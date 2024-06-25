@@ -1,7 +1,8 @@
 body, *{
     margin: 0;
     padding: 0;
-    font-family: serif;
+    font-family: "Roboto", Arial sans-serif;
+
 }
 
 body{
@@ -48,16 +49,16 @@ body{
             color: #fff;
             display: flex;
             align-items: center;
-            gap: 1vw;
+            gap: .5vw;
             transition: .5s;
 
             img{
-                width: 1.5vw;
+                width: 1vw;
                 filter: invert(1);
 
             }
             span{
-                font-size: 2rem;
+                font-size: 1rem;
             }
 
             &:hover{
@@ -185,5 +186,102 @@ body{
             }
         }
     }
+
+    .newsSection{
+        background: #262423;
+        padding: 2rem 1rem;
+
+        .introSection{
+            text-align: center;
+            margin-bottom: 3rem;
+
+            h2{
+                color: #fff;
+                font-size: 3rem;
+                margin-bottom: 1.5rem;
+            }
+            a{
+                text-decoration: none;
+                font-size: 1.5rem;
+                color: #33cd00;
+            }
+        }
+
+        .newsCards{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+
+            .newsCard{
+                position: relative;
+                margin-bottom: 2rem;
+
+                .mainCardCont{
+                    img{
+                        width: 22vw;
+                    }
+                }
+                .infoCardCont{
+                    position: absolute;
+                    bottom: 0rem;
+                    color: #fff;
+                    font-size: 1.5rem;
+                    background: rgb(0, 0, 0, .65);
+                    width: 100%;
+                    height: 10vh;
+
+                }
+            }
+
+        }
+
+        
+    }
+    
+    .addOnsSection{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem;
+
+        .addOnsImgCont{
+            img{
+                width: 50vw;
+                
+            }
+        }
+
+        .addOnsInfoCont{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            width: 40vw;
+
+            h2{
+                font-size: 4rem;
+                color: #fff;
+            }
+            p{
+                color: #fff;
+            }
+            a{
+                color: #fff;
+                background: #3c8527;
+                text-decoration: none;
+                width: 10vw;
+                padding: 1rem 2rem;
+                transition: .5s;
+
+                &:hover{
+                    background: #2a641c;
+                }
+
+            }
+
+        }
+
+    }
+
 }
 

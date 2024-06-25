@@ -49,6 +49,119 @@
             </div>
         </div>
 
+        <div class="newsSection">
+            <div class="introSection">
+                <h2>What Is New</h2>
+                <a href="">See All News ></a>
+            </div>
+
+            <div class="newsCards">
+
+                <div class="newsCard">
+                    <div class="mainCardCont">
+                        <img src="https://www.minecraft.net/content/dam/games/minecraft/screenshots/sculkshrieker-1x1.jpg" alt="">
+                    </div>
+
+                    <div class="infoCardCont">
+                        <p>Black of the month: Sculk Shrieker</p>
+                    </div>
+
+                </div>
+
+                <div class="newsCard">
+                    <div class="mainCardCont">
+                        <img src="https://www.minecraft.net/content/dam/games/minecraft/key-art/bedrock-1x1-tile.jpg" alt="">
+                    </div>
+
+                    <div class="infoCardCont">
+                        <p>Minecraft For PlayStation5</p>
+                    </div>
+
+                </div>
+
+                <div class="newsCard">
+                    <div class="mainCardCont">
+                        <img src="https://www.minecraft.net/content/dam/games/minecraft/screenshots/IntoTheTrialChamber_ch5_mobs_565x565.jpg" alt="">
+                    </div>
+
+                    <div class="infoCardCont">
+                        <p>Danger Around Every Corner</p>
+                    </div>
+
+                </div>
+
+                <div class="newsCard">
+                    <div class="mainCardCont">
+                        <img src="https://www.minecraft.net/content/dam/games/minecraft/key-art/15DaysRecap_565x565%20D.jpg" alt="">
+                    </div>
+
+                    <div class="infoCardCont">
+                        <p>Recap 15 Days Of Minecraft</p>
+                    </div>
+
+                </div>
+
+                <div class="newsCard">
+                    <div class="mainCardCont">
+                        <img src="https://www.minecraft.net/content/dam/games/minecraft/key-art/IntotheTrialChamber_ch4_thesetting_565x565.jpg" alt="">
+                    </div>
+
+                    <div class="infoCardCont">
+                        <p>Chamber Of Secrets</p>
+                    </div>
+
+                </div>
+
+                <div class="newsCard">
+                    <div class="mainCardCont">
+                        <img src="https://www.minecraft.net/content/dam/games/minecraft/game-updates/Editorial_article_TrickyTrials_launch_277x277.jpg" alt="">
+                    </div>
+
+                    <div class="infoCardCont">
+                        <p>Triky Trials Update Out Now</p>
+                    </div>
+
+                </div>
+
+                <div class="newsCard">
+                    <div class="mainCardCont">
+                        <img src="https://www.minecraft.net/content/dam/games/minecraft/screenshots/1.21-277x277.jpg" alt="">
+                    </div>
+
+                    <div class="infoCardCont">
+                        <p>Minecraft Java Edition 1.21</p>
+                    </div>
+
+                </div>
+
+                <div class="newsCard">
+                    <div class="mainCardCont">
+                        <img src="https://www.minecraft.net/content/dam/games/minecraft/screenshots/bedrock_1-20-80_tile.jpg" alt="">
+                    </div>
+
+                    <div class="infoCardCont">
+                        <p>Minecraft 1.21 Bedrock Changelog</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="addOnsSection">
+            <div class="addOnsImgCont">
+                <img src="https://www.minecraft.net/content/dam/minecraftnet/community/events/cy2024/15-year-anniversary/HP-Takeover_Media-Block-B_GA-Add-ons_1332x888.jpg" alt="">
+            </div>
+
+            <div class="addOnsInfoCont">
+                <h2>Change your game, your way!</h2>
+                <p>Whether it’s more cuteness, comedy, or chaos you want, there's an add-on for you! Choose from the many new free and paid add-ons.</p>
+                <a href="">EXPLORE ADD-ONS</a>
+            </div>
+
+        </div>
+
     </div>
 
     <?php include_once 'C:/xampp/htdocs/Minecraft_Proj/components/footer.php'?>
