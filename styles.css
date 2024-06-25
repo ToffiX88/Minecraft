@@ -69,6 +69,84 @@ body{
     
 }
 
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    background: #111111;
+    
+    .mainFooterSection{
+
+        .mainFooterSectionImgs{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+        p{
+            color: #fff;
+            margin-top: 2rem;
+        }
+    }
+
+    .linksSection{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 30vw;
+
+        h2{
+            color: #fff;
+            margin-bottom: .5rem;
+        }
+        a{
+            text-decoration: none;
+            color: #7cb064;
+            margin-bottom: .5rem;
+        }
+
+        .firstLinkSectionColumn{
+            .gameLinks{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 1rem;
+    
+            }
+            .communityLinks{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 1rem;
+    
+            }
+
+        }
+
+        .secondLinkSectionColumn{
+            .shopLinks{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 1rem;
+    
+            }
+            .supportLinks{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 1rem;
+    
+            }
+
+        }
+        
+    }
+
+    .otherSection{
+
+        img{
+            width: 10vw;
+        }
+    }
+}
+
 .mainCont{
     img{
         width: 100%;

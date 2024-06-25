@@ -51,6 +51,7 @@
 
     </div>
 
+    <?php include_once 'C:/xampp/htdocs/Minecraft_Proj/components/footer.php'?>
 
 </body>
 </html>
